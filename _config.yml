@@ -1,14 +1,14 @@
 # Site
-title:              Moon
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:              Rakesh Gupta
+bio:                'Software Engineer, Algorithms enthusiast, Chess Lover.'
+description:        "update me in _config.yml description variable"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://taylantatli.github.io/Moon
+url:                https://guptarakesh123.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -26,25 +26,25 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   rakeshag
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
+google:
+  plus:             guptarakesh123
   #analytics:
   #verify:
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github-url:         username
+email:              lastname.firstname123@googlemail.com
+twitter:            guptarakesh123
+facebook:           social.rakesh
+github-url:         guptarakesh123
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:           rakesh-awadhraj-gupta
 #xing:              username
-instagram:          username
+instagram:          social.rakesh
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
