@@ -12,5 +12,4 @@ This website is built using Jekyll. It is a static website with no database and 
 
 Visit the website [here](https://www.guptarakesh.com)
 
-## Getting Started
 
