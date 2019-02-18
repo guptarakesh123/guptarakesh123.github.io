@@ -7,9 +7,8 @@ This website is built using Jekyll. It is a static website with no database and 
 * Learn more about [Jekyll](https://jekyllrb.com/docs/)
 * Learn more about [hosting on Github](https://pages.github.com/)
 * Manage the Domain Name on [Ionos](https://www.ionos.com)
-* Theme forked from [Taylan](https://github.com/TaylanTatli/Moon)
+* Theme cloned (and later modified) from [Taylan](https://github.com/TaylanTatli/Moon)
 * Content written by me
 
 Visit the website [here](https://www.guptarakesh.com)
-
 
