@@ -11,4 +11,4 @@ Yes, but only if you are 100% sure that you never want to look at it again ever.
 4) Changing the machine where you develop <br />
 5) Learning the version control right from the beginning
 
-Facebook connects more than 2 billion people every month. I spent a lot of time in the rural India, and have seen elderly's craving to see faces of their nieces and nephews living in cities thousands of miles away. Some people don't even know about floods or drought affecting nearby areas, and some friends never see each other because their careers parted them away.
+Thus, as a thumb rule, always keeping all your work in a reliable git repository will yield way more than it takes. At least it has paid me off so far.

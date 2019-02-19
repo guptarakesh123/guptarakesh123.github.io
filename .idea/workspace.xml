@@ -37,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-01-27-Why-use-git-for-small-projects?.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="6" column="151" selection-start-line="6" selection-start-column="151" selection-end-line="6" selection-end-column="151" />
+              <first_editor relative-caret-position="210">
+                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -223,7 +223,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20433000" />
+    <option name="totallyTimeSpent" value="20725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="912" extended-state="0" />
@@ -512,8 +512,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-01-27-Why-use-git-for-small-projects?.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="151" selection-start-line="6" selection-start-column="151" selection-end-line="6" selection-end-column="151" />
+          <first_editor relative-caret-position="210">
+            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           </first_editor>
           <second_editor />
         </state>
