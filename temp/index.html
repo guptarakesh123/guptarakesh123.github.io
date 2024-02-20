@@ -31,7 +31,15 @@
             if (event.data == YT.PlayerState.ENDED) {
                 alert (event.data)
                 window.close(); 
+                quitBox('quit');
             }
+        }
+
+        function quitBox(cmd) {   
+            if (cmd=='quit') {
+                open(location, '_self').close();
+            }   
+            return false;   
         }
     </script>
 </body>
