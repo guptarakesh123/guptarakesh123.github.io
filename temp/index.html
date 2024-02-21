@@ -29,9 +29,8 @@
         // 4. The API will call this function when the video player's state changes.
         function onPlayerStateChange(event) {
             if (event.data == YT.PlayerState.ENDED) {
-                alert (event.data)
-                window.close(); 
                 quitBox('quit');
+                window.close(); 
             }
         }
 
