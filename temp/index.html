@@ -21,10 +21,13 @@
                 width: '640',
                 videoId: 'yXkIHyBfns8', // Replace with your YouTube video ID 
                 events: {
-                    'onStateChange': onPlayerStateChange
+                    'onStateChange': onPlayerStateChange,
+                    'onReady': onPlayerReady
                 }
             });
+        }
 
+        function onPlayerReady() {
             player.playVideo();
         }
 
