@@ -13,6 +13,14 @@
         var firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
+
+        // const queryString = window.location.search;
+        // const urlParams = new URLSearchParams(queryString);
+    
+        // alert(urlParams.has('repeat'))
+
+
+
         // 3. This function creates an <iframe> (and YouTube player) after the API code downloads.
         var player;
         function onYouTubeIframeAPIReady() {
@@ -21,14 +29,17 @@
                 width: '640',
                 videoId: 'yXkIHyBfns8', // Replace with your YouTube video ID 
                 events: {
+                    'onReady': onPlayerReady,
                     'onStateChange': onPlayerStateChange,
-                    'onReady': onPlayerReady
                 }
             });
         }
 
         function onPlayerReady(event) {
             event.target.playVideo();
+            // if (!urlParams.has('repeat')) {
+            //     event.target.playVideo();
+            // }
         }
 
         // 4. The API will call this function when the video player's state changes.
@@ -42,8 +53,9 @@
         function quitBox(cmd) {   
             if (cmd=='quit') {
                 open(location, '_self').close();
+                // open(location + '?repeat', '_self').close();
             }   
-            return false;   
+            return false;
         }
     </script>
 </body>
