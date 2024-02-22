@@ -25,8 +25,8 @@
         var player;
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('player', {
-                height: '360',
-                width: '640',
+                height: window.innerHeight,
+                width: window.innerWidth,
                 videoId: 'yXkIHyBfns8', // Replace with your YouTube video ID 
                 events: {
                     'onReady': onPlayerReady,
