@@ -36,6 +36,7 @@
         }
 
         function onPlayerReady(event) {
+            player.mute();
             player.playVideo();
             event.target.playVideo();
             // if (!urlParams.has('repeat')) {
